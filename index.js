@@ -5,3 +5,9 @@ var message = `${name} is ${height} inches tall`
 
 module.exports = {name, height, message}
 console.log(message)
+
+ describe('Name', () => {
+    it('returns "Susan"', () => {
+      expect(index.name).toEqual('Susan')
+    })
+  })
